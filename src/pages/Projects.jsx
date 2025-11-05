@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { RevealOnScroll } from "../components/RevealOnScroll";
-import { projectsData } from "../data/projectsData"
+import { projectsData } from "../data/ProjectsData"
 
 export const Projects = () => {
   const [searchTerm, setSearchTerm] = useState("");
