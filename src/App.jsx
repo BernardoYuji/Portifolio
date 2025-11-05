@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
-import { NavBar } from "./components/Navbar";
+import { NavBar } from "./components/NavBar";
 import { MobileMenu } from "./components/MobileMenu";
 import { Footer } from "./components/Footer"
 import "./index.css";
