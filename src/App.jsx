@@ -1,3 +1,4 @@
+/*Imports */
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
@@ -7,6 +8,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Footer } from "./components/Footer"
 import "./index.css";
 
+/*Function that loads the page */
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
