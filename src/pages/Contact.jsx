@@ -12,7 +12,7 @@ export const Contact = () => {
 
   
   const handleSubmit = (e) => {
-    e.preventDefault();  // Fixed typo here: `e.preventeDefault()` -> `e.preventDefault()`
+    e.preventDefault();  
 
     emailjs.sendForm(import.meta.env.VITE_SERVICEID, import.meta.env.VITE_TEMPLATEID, e.target, import.meta.env.VITE_PUBLIC_KEY)
       .then(() => {
